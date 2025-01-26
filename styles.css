@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    color: #092540;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff; /* White text color for better contrast */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #ffffff; /* White text color for better contrast */
+}
+
+/* Navigation Bar */
+.navbar {
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #5d4037; /* Darker background for navbar */
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: bold;
+    color:#345192;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2em;
+    color:#345192;
+}
+
+.navbar-nav .nav-link:hover {
+    color: grey;
+}
+
+/* Header Section */
+header {
+    background-image: url('https://cdn11.bigcommerce.com/s-9wlsnri4bn/images/stencil/1920x300/s/c-decaf-classic-1920x300-min__54936.original.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .display-4 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+header .lead {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+#menu, #coffee-menu, #tea-menu, #pastry-menu {
+    padding: 60px 0;
+}
+
+#menu h2, #coffee-menu h2, #tea-menu h2, #pastry-menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ffffff; /* White text color for better contrast */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #011747;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: black;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #345192;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #d4a373;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color:#10ba8ab9;
+    border-color:#345192;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color:#4d67a0;
+    border-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #5d4037;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

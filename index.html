@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Cafe</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-info bg-light">
+        <a class="navbar-brand" href="#">Sing Cafe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Sing Cafe</h1>
+        <p class="lead">THE BEST CAFE SHOP IN THE WORLD</p>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container mt-5">
+        <h2 class="text-center">Our Menu</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <a href="../Menu/coffee.html" target="_blank">
+                        <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/636bcbc6e2494c61701cfca1/e14a2cb4-1c7b-4ff6-b81a-8cc890f22c46/4212NEW.jpg" alt="Coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Coffee</h5>
+                            <p class="card-text">Delicious coffee made from the finest beans.</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <a href="../Menu/tea.html" target="_blank">
+                        <img class="card-img-top" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/8468/conversions/Tea-thumb.jpg" alt="Tea">
+                        <div class="card-body">
+                            <h5 class="card-title">Tea</h5>
+                            <p class="card-text">Refreshing tea with a variety of flavors.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <a href="../Menu/pastry.html" target="_blank">
+                        <img class="card-img-top" src="https://pastrieslikeapro.com/wp-content/uploads/2024/10/finihed-pic-1200.jpg" alt="Pastry">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastries</h5>
+                            <p class="card-text">Best Pastry in Cambodia.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="formResult" class="mt-3"></div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
